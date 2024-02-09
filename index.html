@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeVerse Plataforma de Desarrollo Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a WebDualiCode</h1>
+        <p>Tu plataforma de desarrollo web online</p>
+    </header>
+    <div id="editors">
+        <textarea id="html-editor" placeholder="Escribe tu código HTML aquí..."></textarea>
+        <textarea id="css-editor" placeholder="Escribe tu código CSS aquí..."></textarea>
+        <textarea id="js-editor" placeholder="Escribe tu código JavaScript aquí..."></textarea>
+        <div id="button-container">
+            <input type="file" id="file-input" accept=".html,.css,.js">
+            <label for="file-input" class="custom-file-input">Cargar archivo</label>
+            <button id="download-project">Descargar Proyecto</button>
+        </div>
+    </div>
+    <div id="visualizer">
+        <iframe id="preview-frame"></iframe>
+    </div>
+    <footer>
+        <p>&copy; 2024 WebDualiCode. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="script2.js"></script>
+</body>
+
+</html>
+
+
