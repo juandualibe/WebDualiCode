@@ -25,3 +25,7 @@ JavaScript
 
 ## Créditos
 Desarrollado por [juandualibe](https://github.com/juandualibe).
+
+# Licencia
+Este proyecto está bajo la Licencia MIT. Consulta el [archivo LICENSE](LICENSE) para obtener más detalles.
+
